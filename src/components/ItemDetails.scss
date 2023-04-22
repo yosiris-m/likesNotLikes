@@ -1,0 +1,166 @@
+.item-details {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+  margin-top: 1.25rem;
+  font-family: "Brandon Grotesque";
+  position: relative;
+  border: 1px solid #e2e2e2;
+  background-color: #fff;
+
+  &__image-container {
+    position: relative;
+  }
+
+  &__image {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  &__price {
+    position: absolute;
+    top: 1.3125rem;
+    left: 1.125rem;
+    font-size: 1.25rem;
+    line-height: 0.9375rem;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 500;
+  }
+
+  &__currency {
+    font-size: 0.75rem;
+    padding-left: 0.2rem;
+  }
+
+  &__price-bg {
+    position: absolute;
+    top: 0;
+    left: -1px;
+  }
+}
+
+.item-info {
+  &__title {
+    font-size: 1.8125rem;
+    line-height: 1.5625rem;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-align: center;
+    margin: 0;
+    padding-top: 1.5rem;
+  }
+
+  &__subtitle {
+    font-size: 1.125rem;
+    line-height: 1.5625rem;
+    color: #000;
+    font-weight: 400;
+    font-family: "Droid Serif";
+    text-align: center;
+    margin: 0;
+    margin-top: 0.625rem;
+    padding-bottom: 1.5625rem;
+    filter: drop-shadow(0.0313rem 0.0541rem 0px #ffffff);
+  }
+
+  &__by {
+    color: #c2c2bd;
+  }
+}
+
+.item-actions {
+  display: flex;
+  flex-direction: row;
+  font-size: 23px;
+  line-height: 10px;
+  text-transform: uppercase;
+  color: #b6b6b4;
+  text-align: center;
+  border-top: 1px solid #e2e2e2;
+  height: 3.75rem;
+
+  svg {
+    fill: #b6b6b4;
+    stroke: #b6b6b4;
+  }
+
+  @media all and (min-width: 768px) {
+    position: absolute;
+    display: block;
+    top: 1.25rem;
+    right: 1.1875rem;
+    border-top: none;
+    color: #fff;
+
+    svg {
+      fill: rgb(255, 255, 255);
+      stroke: rgb(255, 255, 255);
+    }
+  }
+
+  &__repost {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    align-items: center;
+    border-left: 1px solid #e2e2e2;
+    justify-content: center;
+
+    @media all and (min-width: 768px) {
+      border: none;
+      flex-direction: column;
+    }
+  }
+
+  &__repost-counter {
+    margin-left: 1.125rem;
+
+    @media all and (min-width: 768px) {
+      margin-left: 0;
+      margin-top: 1.125rem;
+    }
+  }
+
+  &__like-container {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    @media all and (min-width: 768px) {
+      flex-direction: column-reverse;
+    }
+  }
+
+  &__likes-count {
+    @media all and (min-width: 768px) {
+      margin-top: 0.5rem;
+      margin-bottom: 1.125rem;
+    }
+  }
+
+  &__like-img {
+    margin-left: 1.375rem;
+    cursor: pointer;
+
+    &:hover {
+      border-radius: 50%;
+      background-color: #99f3cfec;
+      opacity: 0.6;
+    }
+
+    @media all and (min-width: 768px) {
+      margin-left: 0;
+    }
+
+    &--selected {
+      svg {
+        fill: #83f3c6;
+        stroke: #83f3c6;
+      }
+    }
+  }
+}
