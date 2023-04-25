@@ -23,7 +23,7 @@ export function ItemDetails({ item }) {
   };
 
   return (
-    <div className="item-details">
+    <section className="item-details">
       <div className="item-details__image-container">
         <div className="item-details__price-bg">
           <PriceTriangleSvg />
@@ -40,8 +40,8 @@ export function ItemDetails({ item }) {
         />
       </div>
 
-      <div className="item-info">
-        <p className="item-info__title">{item.title}</p>
+      <section className="item-info">
+        <h1 className="item-info__title">{item.title}</h1>
         <p className="item-info__subtitle">
           <span className="item-info__by">by</span> {item.author}
         </p>
@@ -51,16 +51,16 @@ export function ItemDetails({ item }) {
               {likesCount.toString().padStart(3, "0")}
             </p>
             {isLiked ? (
-              <div onClick={removeLike} className="item-actions__like-img">
+              <span onClick={removeLike} className="item-actions__like-img">
                 <LikedSvg />
-              </div>
+              </span>
             ) : (
-              <div
+              <span
                 onClick={addLike}
                 className="item-actions__like-img--selected"
               >
                 <LikedSvg />
-              </div>
+              </span>
             )}
           </div>
           <div className="item-actions__repost">
@@ -68,7 +68,7 @@ export function ItemDetails({ item }) {
             <span className="item-actions__repost-counter">000</span>
           </div>
         </div>
-      </div>
-    </div>
+      </section>
+    </section>
   );
 }

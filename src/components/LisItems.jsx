@@ -46,8 +46,8 @@ export function ListItems() {
   };
 
   return (
-    <div className="list-items">
-      <div className="list-items__header">
+    <section className="list-items">
+      <header className="list-items__header">
         <AppLogoSvg className={"list-items__logo"} />
         <form onSubmit={filterFormOnSubmit} className="list-items__form-search">
           <button type="submit" className="list-items__button-search">
@@ -62,12 +62,12 @@ export function ListItems() {
             onChange={handleChange}
           />
         </form>
-      </div>
+      </header>
       <div className="list-items__contend-detail">
         {data.map((item, id) => (
           <ItemDetails key={id} item={item} />
         ))}
       </div>
-    </div>
+    </section>
   );
 }

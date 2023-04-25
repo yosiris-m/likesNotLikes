@@ -143,23 +143,23 @@
   }
 
   &__like-img {
-    margin-left: 1.375rem;
+    margin-left: 1.2rem;
     cursor: pointer;
-
-    &:hover {
-      border-radius: 50%;
-      background-color: #99f3cfec;
-      opacity: 0.6;
-    }
 
     @media all and (min-width: 768px) {
       margin-left: 0;
     }
 
     &--selected {
+      margin-left: 1.2rem;
+
       svg {
         fill: #83f3c6;
         stroke: #83f3c6;
+      }
+
+      @media all and (min-width: 768px) {
+        margin-left: 0;
       }
     }
   }
