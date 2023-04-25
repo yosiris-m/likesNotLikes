@@ -37,6 +37,7 @@
   },
   "devDependencies": {
     "node-sass": "^7.0.3",
+    "react-test-renderer": "^18.2.0",
     "sass-loader": "^13.2.2"
   }
 }

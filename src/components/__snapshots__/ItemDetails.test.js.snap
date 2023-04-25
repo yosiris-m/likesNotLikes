@@ -1,0 +1,401 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render ItemDetails when it is liked 1`] = `
+<div
+  className="item-details"
+>
+  <div
+    className="item-details__image-container"
+  >
+    <div
+      className="item-details__price-bg"
+    >
+      <svg
+        height="100"
+        version="1.2"
+        viewBox="0 0 157 99"
+        width="160"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g
+          id="item_ 4"
+        >
+          <g
+            id="Price"
+          >
+            <path
+              className="s0"
+              d="m0-1h160l-160 100z"
+              id="Rectangle 12"
+              style={
+                Object {
+                  "fill": "#ffffff",
+                }
+              }
+            />
+          </g>
+        </g>
+      </svg>
+    </div>
+    <div
+      className="item-details__price"
+    >
+      <span>
+        10
+      </span>
+      <span
+        className="item-details__currency"
+      >
+        €
+      </span>
+    </div>
+    <img
+      alt="Red fruits"
+      className="item-details__image"
+      src="https://picsum.photos/id/102/300"
+    />
+  </div>
+  <div
+    className="item-info"
+  >
+    <p
+      className="item-info__title"
+    >
+      Red fruits
+    </p>
+    <p
+      className="item-info__subtitle"
+    >
+      <span
+        className="item-info__by"
+      >
+        by
+      </span>
+       
+      SamyRoad
+    </p>
+    <div
+      className="item-actions"
+    >
+      <div
+        className="item-actions__like-container"
+      >
+        <p
+          className="item-actions__likes-count"
+        >
+          007
+        </p>
+        <div
+          className="item-actions__like-img--selected"
+          onClick={[Function]}
+        >
+          <svg
+            height={40}
+            width={40}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <defs>
+              <filter
+                height="200%"
+                id="f1"
+                width="200%"
+                x="-50%"
+                y="-50%"
+              >
+                <feDropShadow
+                  dx={0}
+                  dy={0}
+                  floodColor="#000"
+                  floodOpacity={0.5}
+                  stdDeviation={0.417}
+                />
+              </filter>
+            </defs>
+            <style />
+            <g
+              id="item_1"
+            >
+              <g
+                id=":hover"
+              >
+                <g
+                  id="likes"
+                >
+                  <g
+                    id="liked"
+                  >
+                    <path
+                      d="M20.5 3C30.2 3 38 10.8 38 20.5S30.2 38 20.5 38 3 30.2 3 20.5 10.8 3 20.5 3zm4 12.1c-.7-1.2-1.6-1.7-1.7-3v-1.6c-.2-.6-1.3-1.1-1.9-1.1-.7 0-1.5.6-1.5 1.3h-.1V15H13v.1c-.7 0-1 .7-1 1.4s.3 1.3 1 1.3h2.1v.9l-2.1-.1v.1c-.7 0-1 .7-1 1.4s.3 1.3 1 1.3h2.1v.7H13c-.7 0-1 .7-1 1.4s.3 1.4 1 1.4h2.1v.6h-2l-.1.2c-.7 0-1 .6-1 1.3 0 .7.3 1.3 1 1.4h12.7s.8-2.2 1.7-2.2h1.7v-8.4s-3.2-.4-4.6-2.7zm-1.7-4.6q.1.1.1.2c0-.1-.1-.3-.1-.2z"
+                      fillRule="evenodd"
+                      id="Ellipse 5 copy 5"
+                      style={
+                        Object {
+                          "filter": "url(#f1)",
+                          "strokeWidth": 0.5,
+                        }
+                      }
+                    />
+                  </g>
+                </g>
+              </g>
+            </g>
+          </svg>
+        </div>
+      </div>
+      <div
+        className="item-actions__repost"
+      >
+        <svg
+          height="38"
+          version="1.2"
+          viewBox="0 0 38 38"
+          width="38"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <defs>
+            <filter
+              height="200%"
+              id="f1"
+              width="200%"
+              x="-50%"
+              y="-50%"
+            >
+              <feDropShadow
+                dx="0"
+                dy="0"
+                floodColor="#000000"
+                floodOpacity=".3"
+                stdDeviation="0.4166666666666667"
+              />
+            </filter>
+          </defs>
+          <g
+            id="item_ 4"
+          >
+            <g
+              id="repost"
+            >
+              <path
+                className="s0"
+                d="m19.4 1.5c9.6 0 17.5 7.9 17.5 17.5 0 9.7-7.9 17.5-17.5 17.5-9.7 0-17.5-7.8-17.5-17.5 0-9.6 7.8-17.5 17.5-17.5zm10.7 17.4c0-5.8-4.7-10.5-10.5-10.5-5.8 0-10.5 4.7-10.5 10.5h-2.1l3.5 4.2 3.5-4.2h-2.1c0-4.2 3.4-7.7 7.7-7.7 4.2 0 7.7 3.5 7.7 7.7 0 4.3-3.5 7.7-7.7 7.7v2.8c5.8 0 10.5-4.7 10.5-10.5z"
+                fillRule="evenodd"
+                id="Ellipse 5 copy 4 copia 2"
+                style={
+                  Object {
+                    "strokeWidth": 0.4,
+                  }
+                }
+              />
+            </g>
+          </g>
+        </svg>
+        <span
+          className="item-actions__repost-counter"
+        >
+          000
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`should render ItemDetails when it is not liked 1`] = `
+<div
+  className="item-details"
+>
+  <div
+    className="item-details__image-container"
+  >
+    <div
+      className="item-details__price-bg"
+    >
+      <svg
+        height="100"
+        version="1.2"
+        viewBox="0 0 157 99"
+        width="160"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g
+          id="item_ 4"
+        >
+          <g
+            id="Price"
+          >
+            <path
+              className="s0"
+              d="m0-1h160l-160 100z"
+              id="Rectangle 12"
+              style={
+                Object {
+                  "fill": "#ffffff",
+                }
+              }
+            />
+          </g>
+        </g>
+      </svg>
+    </div>
+    <div
+      className="item-details__price"
+    >
+      <span>
+        10
+      </span>
+      <span
+        className="item-details__currency"
+      >
+        €
+      </span>
+    </div>
+    <img
+      alt="Red fruits"
+      className="item-details__image"
+      src="https://picsum.photos/id/102/300"
+    />
+  </div>
+  <div
+    className="item-info"
+  >
+    <p
+      className="item-info__title"
+    >
+      Red fruits
+    </p>
+    <p
+      className="item-info__subtitle"
+    >
+      <span
+        className="item-info__by"
+      >
+        by
+      </span>
+       
+      SamyRoad
+    </p>
+    <div
+      className="item-actions"
+    >
+      <div
+        className="item-actions__like-container"
+      >
+        <p
+          className="item-actions__likes-count"
+        >
+          000
+        </p>
+        <div
+          className="item-actions__like-img--selected"
+          onClick={[Function]}
+        >
+          <svg
+            height={40}
+            width={40}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <defs>
+              <filter
+                height="200%"
+                id="f1"
+                width="200%"
+                x="-50%"
+                y="-50%"
+              >
+                <feDropShadow
+                  dx={0}
+                  dy={0}
+                  floodColor="#000"
+                  floodOpacity={0.5}
+                  stdDeviation={0.417}
+                />
+              </filter>
+            </defs>
+            <style />
+            <g
+              id="item_1"
+            >
+              <g
+                id=":hover"
+              >
+                <g
+                  id="likes"
+                >
+                  <g
+                    id="liked"
+                  >
+                    <path
+                      d="M20.5 3C30.2 3 38 10.8 38 20.5S30.2 38 20.5 38 3 30.2 3 20.5 10.8 3 20.5 3zm4 12.1c-.7-1.2-1.6-1.7-1.7-3v-1.6c-.2-.6-1.3-1.1-1.9-1.1-.7 0-1.5.6-1.5 1.3h-.1V15H13v.1c-.7 0-1 .7-1 1.4s.3 1.3 1 1.3h2.1v.9l-2.1-.1v.1c-.7 0-1 .7-1 1.4s.3 1.3 1 1.3h2.1v.7H13c-.7 0-1 .7-1 1.4s.3 1.4 1 1.4h2.1v.6h-2l-.1.2c-.7 0-1 .6-1 1.3 0 .7.3 1.3 1 1.4h12.7s.8-2.2 1.7-2.2h1.7v-8.4s-3.2-.4-4.6-2.7zm-1.7-4.6q.1.1.1.2c0-.1-.1-.3-.1-.2z"
+                      fillRule="evenodd"
+                      id="Ellipse 5 copy 5"
+                      style={
+                        Object {
+                          "filter": "url(#f1)",
+                          "strokeWidth": 0.5,
+                        }
+                      }
+                    />
+                  </g>
+                </g>
+              </g>
+            </g>
+          </svg>
+        </div>
+      </div>
+      <div
+        className="item-actions__repost"
+      >
+        <svg
+          height="38"
+          version="1.2"
+          viewBox="0 0 38 38"
+          width="38"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <defs>
+            <filter
+              height="200%"
+              id="f1"
+              width="200%"
+              x="-50%"
+              y="-50%"
+            >
+              <feDropShadow
+                dx="0"
+                dy="0"
+                floodColor="#000000"
+                floodOpacity=".3"
+                stdDeviation="0.4166666666666667"
+              />
+            </filter>
+          </defs>
+          <g
+            id="item_ 4"
+          >
+            <g
+              id="repost"
+            >
+              <path
+                className="s0"
+                d="m19.4 1.5c9.6 0 17.5 7.9 17.5 17.5 0 9.7-7.9 17.5-17.5 17.5-9.7 0-17.5-7.8-17.5-17.5 0-9.6 7.8-17.5 17.5-17.5zm10.7 17.4c0-5.8-4.7-10.5-10.5-10.5-5.8 0-10.5 4.7-10.5 10.5h-2.1l3.5 4.2 3.5-4.2h-2.1c0-4.2 3.4-7.7 7.7-7.7 4.2 0 7.7 3.5 7.7 7.7 0 4.3-3.5 7.7-7.7 7.7v2.8c5.8 0 10.5-4.7 10.5-10.5z"
+                fillRule="evenodd"
+                id="Ellipse 5 copy 4 copia 2"
+                style={
+                  Object {
+                    "strokeWidth": 0.4,
+                  }
+                }
+              />
+            </g>
+          </g>
+        </svg>
+        <span
+          className="item-actions__repost-counter"
+        >
+          000
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
