@@ -1,10 +1,18 @@
-# Getting Started with Create React App
+# Samy challenge
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
+![Screenshot](./src/images/readme.png)
 
 In the project directory, you can run:
+
+
+## 🛠️ Build with
+- [NodeJS](https://nodejs.org)
+- [React](https://es.reactjs.org/)
+- [SASS](https://create-react-app.dev/docs/adding-a-sass-stylesheet)
+- [Prettier](https://prettier.io)
+- [Jest](https://create-react-app.dev/docs/running-tests)
+
+## 💻️ Development
 
 ### `npm start`
 
