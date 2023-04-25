@@ -18,6 +18,7 @@ export function RepostSvg() {
           />
         </filter>
       </defs>
+      <title>Repost Icon</title>
       <g id="item_ 4">
         <g id="repost">
           <path

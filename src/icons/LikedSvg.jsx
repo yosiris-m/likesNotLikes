@@ -13,6 +13,7 @@ export function LikedSvg({ color }) {
         </filter>
       </defs>
       <style />
+      <title>Like button</title>
       <g id="item_1">
         <g id=":hover">
           <g id="likes">

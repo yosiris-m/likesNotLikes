@@ -8,6 +8,7 @@ export function AppLogoSvg({ className }) {
       height="110"
       className={className}
     >
+      <title>Logo</title>
       <g id="header">
         <g id="BG">
           <path

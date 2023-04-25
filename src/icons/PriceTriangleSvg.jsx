@@ -7,6 +7,7 @@ export function PriceTriangleSvg() {
       width="160"
       height="100"
     >
+      <title>Price</title>
       <g id="item_ 4">
         <g id="Price">
           <path
