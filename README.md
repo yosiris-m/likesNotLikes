@@ -1,4 +1,4 @@
-# Samy challenge
+# Likes image
 
 ![Screenshot](./src/images/readme.png)
 
